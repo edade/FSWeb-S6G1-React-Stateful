@@ -35,7 +35,7 @@ const uzgunRuhHali = "Oldukça üzgün :(";
 
 export default function RuhHalleri() {
   /* ADIM 1 */
-  const [ruhHali, setRuhHali] = useState();
+  const [ruhHali, setRuhHali] = useState(mutluRuhHali);
 
   const mutluEt = () => {
     /* ADIM 4 */ setRuhHali(mutluRuhHali);
